@@ -63,7 +63,7 @@ function createMarkupForCountry(array) {
             </li>
             <li>
               <span class="info-title">Languages:</span>
-              <span class="info"> ${Object.values(languages)}</span>
+              <span class="info"> ${Object.values(languages).join(', ')}</span>
             </li>
             <li>
               <span class="info-title">Population:</span>
